@@ -13,6 +13,7 @@
 }
 
 body {
+    overflow: hidden;
     font-family: 'Tapestry', cursive;
     width: 100vw;
     height: 100vh;
