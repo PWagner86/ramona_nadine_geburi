@@ -5,7 +5,7 @@ const resultText = document.querySelector('[data-message] p');
 const message = document.querySelector('[data-message]');
 const gameState = document.querySelector('[data-game-state]');
 
-let i = 10;
+let i = 90;
 
 let timer = setInterval(() => {
     resultText.innerHTML = `Übrigens....ihr händ nu na <br /> ${i} Sekunde <br /> Ziit.`;
