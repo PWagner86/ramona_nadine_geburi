@@ -1,7 +1,6 @@
 p {
     height: 70%;
     padding: 1rem;
-    /* font-size: 1.5rem; */
 }
 
 div:first-of-type {
@@ -10,7 +9,7 @@ div:first-of-type {
 }
 
 a {
-    font-size: 4vmax;
+    font-size: 7vmin;
     text-align: center;
 }
 
@@ -18,7 +17,7 @@ button {
     background: none;
     border: none;
     color: var(--fourthColor);
-    width: 30vmax;
+    width: 50%;
 }
 
 div:last-of-type {
@@ -39,9 +38,11 @@ div:last-of-type {
 }
 
 div:last-of-type button {
+    --btnSize: 10vmin;
+
     position: absolute;
-    width: 6vmax;
-    height: 6vmax;
+    width: var(--btnSize);
+    height: var(--btnSize);
     bottom: 105%;
     left: 80%;
     color: var(--firstColor);
@@ -52,7 +53,7 @@ div:last-of-type button {
 }
 
 div:last-of-type img {
-    width: 25vmax;
+    width: 25vmin;
     height: auto;
     border-radius: 1rem;
 }

@@ -1,11 +1,11 @@
 const RESULT = 25 + 4 + 1987 + 8 + 5 + 1990;
 const enterBtn = document.querySelector('[data-enter-btn]');
 const input = document.querySelector('input');
-const resultText = document.querySelector('h2');
+const resultText = document.querySelector('[data-message] p');
 const message = document.querySelector('[data-message]');
 const gameState = document.querySelector('[data-game-state]');
 
-let i = 60;
+let i = 10;
 
 let timer = setInterval(() => {
     resultText.innerHTML = `Übrigens....ihr händ nu na <br /> ${i} Sekunde <br /> Ziit.`;
@@ -13,7 +13,7 @@ let timer = setInterval(() => {
         i--;
     }else{
         gameState.innerHTML = `
-            <h1>Ihr händs nid gschafft. Sehr schad. Viellicht klappets ja bim nächste Geburtstag</h1>
+            <h2>Ihr händs nid gschafft. Sehr schad. Viellicht klappets ja bim nächste Geburtstag</h2>
             <a href="./rätsel.html">Zeitreise zum nächsten Geburtstag</a>
         `;
         gameState.classList.add('show');

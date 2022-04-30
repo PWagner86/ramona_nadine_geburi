@@ -18,7 +18,7 @@ input {
     height: 50%;
     font-family: 'Tapestry', cursive;
     text-align: center;
-    font-size: 8vmax;
+    font-size: 10vmin;
     background-color: var(--fifthColor);
     border: none;
     border-radius: 1rem;
@@ -49,12 +49,12 @@ button {
 }
 
 .game-state a{
-    font-size: 4vmax;
+    font-size: 7vmin;
     text-align: center;
 }
 
 .game-state img {
-    width: 40vmax;
+    width: 45vmin;
     height: auto;
 }
 
