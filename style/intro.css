@@ -1,0 +1,15 @@
+h1 {
+    height: 40%;
+}
+
+div {
+    height: 50%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+a {
+    font-size: 7vmax;
+    padding: 1rem;
+}

@@ -8,14 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/main.css">
-    <link rel="stylesheet" href="./style/intro.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/kiste.css">
+    <script src="../code/kiste.js" defer></script>
 </head>
 <body>
-    <h1 class="flex-center">Geburtstags<br />rätsel</h1>
-    <div class="flex-center">
-        <p>Um eu eues Gschänk z verdiene, müend ihr zerst es Rätsel löse...</p>
-        <a href="./sites/rätsel.html">weiter</a>
+
+    <h1 class="flex-center">Gäbed da s Ergäbnis i.</h1>
+
+    <div data-message class="flex-center">
+        <h2></h2>
     </div>
+
+    <div class="input-container flex-center">
+        <input type="number">
+    </div>
+
+    <div class="flex-center">
+        <button data-enter-btn>Enter</button>
+    </div>
+
+    <div data-game-state class="game-state"></div>
+
 </body>
 </html>

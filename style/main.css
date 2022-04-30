@@ -1,0 +1,67 @@
+:root {
+    --firstColor: #F5C600;
+    --secondColor: #1168A8;
+    --thirdColor: #0C92F5;
+    --fourthColor: #5C11A8;
+    --fifthColor: #7F0CF5;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tapestry', cursive;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../design/stars.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1, h2, p {
+    color: var(--firstColor);
+    text-align: center;
+    text-shadow: 0 0 10px black;
+}
+
+h1 {
+    font-size: 7vmax;
+}
+
+h2 {
+    font-size: 3.75vmax;
+}
+
+p {
+    font-size: 4vmax;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fourthColor);
+    font-weight: bold;
+}
+
+p {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+button {
+    font-family: 'Tapestry', cursive;
+    cursor: pointer;
+    font-size: 4vmax;
+    font-weight: bold;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
