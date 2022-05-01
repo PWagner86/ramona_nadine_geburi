@@ -9,7 +9,7 @@ const gameState = document.querySelector('[data-game-state]');
 let i = 90;
 
 let timer = setInterval(() => {
-    counter.innerHTML = `Übrigens....ihr händ nu na <br /> ${i} Sekunde <br /> Ziit.`;
+    counter.innerHTML = `Übrigens....ihr händ nu na <br /><span>${i}</span> Sekunde <br /> Ziit.`;
     if(i > 0){
         i--;
     }else{
